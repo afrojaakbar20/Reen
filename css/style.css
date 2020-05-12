@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap')
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+/* all css code goes here */
+/*global css ***/
+.title{
+
+	width:100%;
+	padding:0px 0px 40px;
+	text-align: center;
+}
+.title h2{
+  font-size: 42px;
+   line-height:52px;   
+   color: #506A85;   
+   margin-bottom: 15px;
+}
+.title p{
+  font-size: 16px;
+   line-height:26px;
+    color: #aaa;
+  
+}
+
+/************/
+.header-section{
+	width: 100%;
+}
+.top-header{
+	width: 100%;
+	background: #F5F7FA;
+	padding: 10px 0px;
+}
+.phone-contact{
+    margin: 0px;
+}
+.phone-contact li{
+	list-style: none;
+	display: inline-block;
+
+}
+.phone-contact li a{
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 400;
+	color:#506A85;
+	margin-right: 15px ;
+
+}
+.phone-contact li a .fa{
+    margin-right: 5px;
+}
+.social-icon{
+    margin: 0px;
+    text-align: right;
+}
+.social-icon li{
+	list-style: none;
+	display: inline-block;
+
+}
+.social-icon li a{
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 400;
+	color:#506A85;
+	margin-left: : 15px;
+
+}
+.social-icon li a:hover{
+	color: #00BC9C;
+
+}
+.main manu{
+ width: 100%
+}
+
+.main manu .bg-light{
+	background: transparent !important ;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #506A85;
+	font-size: 16px;
+	font-weight: 600;
+	margin-left: 25px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+     color: #506A85;	
+}
+.main-manu .fa-search{
+	color:#506A85;
+	font-size: 16px;
+}
+.slider{
+	width:100%;
+}
+.slider .container-fluid{
+  padding:0px;
+}
+
+.carousel-caption{
+    position: absolute;
+    right: 15%;
+    bottom: 30%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption h5{
+   font-size: 42px;
+   line-height:52px;
+   text-transform: uppercase;
+   color: #fff;
+   letter-spacing: 2px;
+}
+.slider.carousel-caption p{
+   font-size: 18px;
+   line-height:28px;
+   
+   color: #93A3B3;
+}
+.slider.carousel-caption .btn-info{
+	padding: 10px 35px;
+	margin-top: 25px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	background:#00BC9C ;
+	border: 1px solid #00BC9C;
+	border-radius: 2px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.slider.carousel-caption .btn-info:hover{
+    color: #fff;
+	background:transparent ;
+	border: 1px solid #00BC9C;
+}
+.about{
+	width: 100%;
+	padding: 80px 0px;
+
+}
+.title{
+
+	width:100%;
+	padding:0px 0px 40px;
+	text-align: center;
+}
+.about.title h2{
+  font-size: 42px;
+   line-height:52px;   
+   color: #506A85;   
+   margin-bottom: 15px;
+}
+.about.title p{
+  font-size: 16px;
+   line-height:26px;
+    color: #aaa ! important;
+  
+}
+.about-inner{
+
+	width:100%;
+	padding: 10px 0px;
+}
+.about-inner.media.media-body h5 {
+  font-size: 26px;
+   line-height:36px;   
+   color: #506A85;   
+   margin-bottom: 15px;
+}
+.about-inner.media.media-body {
+    font-size: 16px;
+   line-height:26px;
+    color: #aaa;
+
+}
+.latest-work{
+	width: 100%;
+	padding: 80px 0px;
+	background:#F2F5F7;
+}
+.latest-inner .card-title{
+   font-size: 15px;
+   line-height:26px; 
+   font-weight: 600;  
+   color: #506A85;   
+   margin-bottom: 5px;
+}
+.latest-inner .card-text{
+font-size: 14px;
+   line-height:24px;
+    color: #aaa;
+}
+.latest-work.owl-carousel{
+	padding-top: 80px;
+
+}
+.latest-work.owl-carousel.item{
+   margin: 10px 0px;
+   border: 1px solid #00BC9C;
+}
+
+.get-in-touch{
+	width:100%;
+}
+
+.get-in-touch.btn-info{
+	padding: 10px 35px;
+	margin-top: 25px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	background:#00BC9C ;
+	border: 1px solid #00BC9C;
+	border-radius: 2px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.get-in-touch .btn-info:hover,.get-in-touch.btn-info:focus{
+    color:#00BC9C  ;
+	background:transparent ;
+	border: 1px solid #00BC9C;
+}
+
+.footer-section{
+	width: 100%;
+	padding: 80px 0px 0px;
+	background: #2F4052;
+
+}
+.widget{
+	width:100%;
+	
+}
+.widget h5{
+
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 26px;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+
+.widget p{
+
+	color: #A3B1BF;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-top:15px;
+	margin-bottom: 15px;
+}
+.widget a{
+
+	color: #A3B1BF;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	
+}
+.widget a i{
+	margin-left: 8px;
+}
+.widget .no-pdd-left{
+	padding-left: 0px;
+}
+.main-img{
+	width:100%;
+	float: left;
+}
+.widget .main-img img{
+
+	margin: 5px 0px!important;
+}
+.inner-img-left{
+   width:48%;
+   float:left;
+}
+.inner-img-right{
+   width:48%;
+   float:right;
+}
+.widget ul{
+ width: 100%;
+}
+.widget ul li{
+  list-style: none;
+  color: #A3B1BF;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+
+
+}
+.widget ul li i{
+	margin-right: 5px;
+}
+.widget .form-inline{
+	width:100%;
+}
+.widget .form-group{
+   width:100%;
+   position:relative;
+}
+.widget .form-control{
+	position: relative;
+	width: 100%;
+	height: auto!important;
+	border:1px solid #4E5C6C;
+	background:#4E5C6C;
+	padding: 12px 10px; 
+	color:#A3B1BF;
+	font-size: 12px;
+	border-radius: 5px;
+}
+.widget .form-inline .btn-primary{
+
+    position: absolute;
+    right:5px;
+    top: 7px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-size: 12px; 
+    font-weight: 700; 
+    color: #fff;
+	background:#00BC9C ;
+	border: 1px solid #00BC9C;
+	border-radius: 5px;
+}
+.widget .form-inline .btn-primary:hover,.widget .form-inline .btn-primary:focus{
+    color:#00BC9C  ;
+	background:transparent ;
+	border: 1px solid #00BC9C;
+}
+.bottom-footer{
+	width:100%;
+	padding: 20px 0px;
+	margin-top: 80px;
+	background: #283645;
+	color: #5E6C7A;
+
+}
+
+
+.bottom-footer ul li a{
+    
+    color: #5E6C7A;
+    
+	
+	
+	
+}
